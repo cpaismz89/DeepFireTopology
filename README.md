@@ -4,7 +4,7 @@
 ## Disclaimer
 This software is for research use only. 
 
-## Introduction
+## Abstract
 Increasing wildfire activity across the globe has become an urgent issue with enormous ecological and social impacts. 
 While there is evidence that landscape topology affects fire growth, no study has yet reported its potential influence on fire ignition. 
 This study proposes a deep learning framework focused on understanding the impact of different landscape topologies on the ignition of a 
