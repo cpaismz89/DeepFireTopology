@@ -31,7 +31,7 @@ multiple fields/studies to understand and capture the role and impact of differe
 Execute directly from the notebooks/scripts. 
 Requires a Google Earth Engine account to use the data_generator_gee scripts.
 
-## Output examples
+## Input/Output examples
 ### Negative observations sample
 ![Negative observations sample](data/sample_set/no_fire_collage_sampleSet.png)
 
