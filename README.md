@@ -39,11 +39,17 @@ Requires a Google Earth Engine account to use the data_generator_gee scripts.
 ![Positive observations sample](data/sample_set/fire_collage_sampleSet.png)
 
 ### Conceptual network architecture and outputs 
+End-to-end classification of an example (conceptual model). 
+Land-cover input data is extracted from satellite images, being processed by the network. GradCAM, guided GradCAM, and filters visualizations are obtained at the different blocks of the network to improve the interpretability of the model.
 ![Conceptual network](conceptual_net.png)
 
 ### GradCAM collage (100 landscapes)
+Land-cover images after applying the GradCAM method to highlight the most relevant areas when classifying the observation.
 ![GradCAM](exp_outputs/collages/gradCAM/gradCAM_collage.png)
 
 ### Zonal Statistics 
+Filtered landscapes using different attention levels (full map, top 30\%, 50\%, and 75\% of the densest areas). Different land covers present in the area are highlighted in the landscape and filtered columns (see Landscape legend).
+Red to blue colors represent a gradient from the most to the least relevant zones to classify an image as a positive case.
+In this example, the network mainly highlights the impervious/urban land-cover, represented by areas covered by roads and cities.
 ![Zonal Statistics](exp_outputs/zonal_statistics/zonal_stats.png)
 
